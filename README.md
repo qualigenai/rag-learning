@@ -219,4 +219,3 @@ This is a learning project - use it however you want!
 2. Follow the 7 steps
 3. Start building!
 
-You're about to learn valuable, transferable RAG skills that are in high demand. Enjoy the journey! 🚀
