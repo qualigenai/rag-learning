@@ -116,30 +116,6 @@ Try changing these parameters and re-evaluating:
    - Try: all-MiniLM-L6-v2, all-mpnet-base-v2
    - Better embeddings = better retrieval
 
-## 🎓 Learning Path
-
-### Week 1: Fundamentals
-- Day 1: Set up and run the basic system
-- Day 2: Understand the code structure
-- Day 3: Experiment with chunk sizes
-- Day 4: Try different LLMs
-- Day 5: Add your own documents
-- Day 6: Create custom test questions
-- Day 7: Review evaluation metrics
-
-### Week 2: Optimization
-- Learn about embedding models
-- Experiment with retrieval strategies
-- Compare different configurations
-- Build intuition for what works
-- Document your findings
-
-### Week 3: Advanced Topics
-- Read RAGAS documentation
-- Study vector search algorithms
-- Explore LangChain features
-- Consider production scenarios
-
 ## 🏢 How This Relates to Oracle RAG
 
 | Concept You Learn | Oracle Equivalent |
