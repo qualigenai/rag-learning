@@ -1,0 +1,33 @@
+Common Challenges in RAG Systems
+
+1. Chunking Strategy
+Choosing the right chunk size is crucial. Too small and you lose context; too large 
+and you may include irrelevant information. Overlap between chunks helps maintain 
+continuity but increases storage requirements.
+
+2. Retrieval Accuracy
+Not all retrieved chunks may be relevant. This can lead to:
+- Context pollution: Irrelevant information confusing the LLM
+- Missing information: Relevant chunks not being retrieved
+- Contradictory information: Different sources providing conflicting facts
+
+3. Latency
+RAG systems involve multiple steps (embedding, search, generation) which can impact 
+response time. Optimization strategies include caching, indexing, and batching.
+
+4. Hallucinations
+Even with retrieved context, LLMs may generate incorrect or unsupported information. 
+This is particularly problematic when the model has low confidence or when context 
+is ambiguous.
+
+5. Context Window Limitations
+LLMs have limited context windows. Fitting multiple retrieved chunks plus the query 
+and system prompt requires careful management of token budgets.
+
+6. Metadata Management
+Tracking document sources, versions, timestamps, and other metadata is essential for 
+transparency and debugging but adds complexity.
+
+7. Cost Considerations
+Embedding generation, vector storage, and LLM inference all incur costs. Balancing 
+performance with cost efficiency is an ongoing challenge.

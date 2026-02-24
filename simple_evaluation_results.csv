@@ -1,0 +1,25 @@
+question,answer,num_contexts,has_answer,answer_length_score,context_usage,question_relevance,avg_context_length,context_relevance
+What is RAG and how does it work?,"RAG (Retrieval-Augmented Generation) is a technique that combines information retrieval with text generation. It works by first retrieving relevant documents from a knowledge base, then using those documents as context for generating answers. The system consists of several components, including a document loader, a text splitter, and a language model, which work together to retrieve and process the retrieved documents and generate final answers based on the retrieved context.",5,1.0,1.0,0.82,0.4,309.2,0.56
+What are the main components of a RAG system?,"The main components of a RAG (Relevance-Aware Graph) system include:
+
+1. Document Loader
+2. Text Splitter
+3. Embedding Model
+4. Vector Database
+5. Language Model",5,1.0,0.805,0.36,0.6,324.8,0.68
+How does vector search improve retrieval?,"Vector search improves retrieval in several ways:
+
+1. **Capturing semantic relationships**: By representing text as numerical vectors, vector search captures the nuances of language and meaning, allowing for more accurate retrievals that go beyond simple keyword matching.
+2. **Handling typos and variations**: Vector search can tolerate minor variations in input, such as typos or misspellings, by identifying similar concepts rather than exact matches.
+3. **Understanding context**: Vector search takes into account the broader context of a query, allowing for more relevant retrievals that consider the surrounding words and ideas.
+4. **Capturing semantic intent**: By focusing on the meaning behind words, vector search can identify the underlying intent or topic of a query, leading to more accurate and relevant results.
+
+Overall, vector search improves retrieval by moving beyond traditional keyword-based search methods and instead leveraging the complexities of language to provide more nuanced and accurate results.",5,1.0,0.8,0.7,0.2,307.8,0.28
+What are common challenges in RAG systems?,"According to the provided context, two common challenges in RAG systems are:
+
+1. Choosing the right chunk size - too small may result in losing context, while too large may include irrelevant information.
+2. Overlap between chunks, which helps maintain continuity but increases storage requirements.",5,1.0,1.0,0.6,0.4,324.8,0.48
+How do you evaluate RAG performance?,"The question asks how to evaluate RAG performance. According to the provided context, tools such as RAGAS, LlamaIndex, DeepEval, and TruLens are mentioned as frameworks for evaluation. However, none of these tools or names specifically answer ""how"" to evaluate RAG performance. The context only lists various evaluation metrics (Precision, Recall, MRR, NDCG) but does not provide detailed guidance on the process itself.",5,1.0,1.0,0.28,0.3,281.0,0.24
+What is Oracle's approach to RAG?,"Oracle's approach to RAG is that it embeds RAG directly into database infrastructure, rather than requiring external tools, in order to provide better security and performance for enterprise applications.",5,1.0,1.0,0.48,0.4,313.6,0.24
+Explain the role of embeddings in RAG,"In Retrieval-Augmented Generation (RAG), embeddings play a crucial role by converting text into vectors that can be used for efficient similarity searches. The embedding model is responsible for transforming input text into dense vector representations, which are then used to search the document store and retrieve relevant documents for use as context in generating final answers.",5,1.0,1.0,0.58,0.4,298.8,0.56
+What is the purpose of chunking documents?,"The purpose of chunking documents in a RAG (Recurrent Autoencoder-based) system is to improve retrieval accuracy and fit within the context window of language models. This involves breaking down documents into smaller chunks, such as by character count, sentences, or semantic boundaries, to better process and retrieve relevant information for a given query.",5,1.0,1.0,0.66,0.5,365.8,0.32

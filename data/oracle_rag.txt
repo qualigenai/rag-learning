@@ -1,0 +1,35 @@
+Oracle's RAG Implementation
+
+Oracle has integrated RAG capabilities across multiple products:
+
+Oracle Database 23ai with Select AI:
+Oracle's flagship RAG offering automates the RAG process. Select AI creates and populates 
+vector stores, performs semantic similarity searches, and augments prompts with relevant 
+content from enterprise data. The system uses AI Vector Search built directly into the 
+database.
+
+Key Features:
+- Native vector data type in SQL
+- Hybrid search combining vectors with relational, graph, spatial, and JSON data
+- DBMS_VECTOR_CHAIN PL/SQL package for RAG operations
+- Security: Data never leaves the Oracle Database
+- Integration with multiple LLM providers
+
+Oracle AI Vector Search:
+Supports efficient similarity search using indexes like HNSW and IVF. Allows combining 
+vector search with traditional SQL queries for powerful enterprise RAG applications.
+
+OCI Generative AI Agents:
+These agents augment LLM knowledge without retraining. They use hybrid search combining 
+lexical and semantic approaches. Oracle Integration (OIC) helps automate the end-to-end 
+RAG process with low-code/no-code platforms.
+
+Benefits for Enterprise:
+- Integrated with existing Oracle infrastructure
+- Enterprise-grade security and governance
+- High performance and scalability
+- Multi-cloud support (Azure, AWS, GCP)
+- Comprehensive monitoring and observability
+
+Oracle's approach embeds RAG directly into database infrastructure rather than requiring 
+external tools, providing better security and performance for enterprise applications.

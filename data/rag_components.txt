@@ -1,0 +1,29 @@
+Core Components of a RAG System
+
+1. Document Loader
+The document loader ingests various file formats (PDF, text, HTML, etc.) and converts 
+them into a standardized format for processing.
+
+2. Text Splitter
+Documents are broken into smaller chunks to improve retrieval accuracy and fit within 
+the context window of language models. Common strategies include splitting by character 
+count, sentences, or semantic boundaries.
+
+3. Embedding Model
+This component converts text chunks into dense vector representations (embeddings) that 
+capture semantic meaning. Popular models include sentence-transformers and OpenAI's 
+embedding models.
+
+4. Vector Database
+Vector databases (like ChromaDB, Pinecone, or Weaviate) store embeddings and enable 
+fast similarity search. They use algorithms like HNSW or FAISS for efficient nearest 
+neighbor search.
+
+5. Retriever
+The retriever finds the most relevant document chunks for a given query by comparing 
+query embeddings with stored document embeddings.
+
+6. Language Model
+The LLM generates final answers by conditioning on both the user's question and the 
+retrieved context. This grounds the response in actual documents rather than just 
+the model's training data.

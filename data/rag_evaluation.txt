@@ -1,0 +1,37 @@
+Evaluating RAG System Performance
+
+Effective evaluation is crucial for improving RAG systems. Key metrics include:
+
+Retrieval Metrics:
+- Precision: Proportion of retrieved chunks that are relevant
+- Recall: Proportion of relevant chunks that were retrieved
+- MRR (Mean Reciprocal Rank): Measures how quickly relevant results appear
+- NDCG (Normalized Discounted Cumulative Gain): Rewards relevant results higher in rankings
+
+Generation Metrics:
+- Faithfulness: Is the answer grounded in retrieved context?
+- Answer Relevancy: Does the answer address the question?
+- Answer Correctness: Compared to ground truth (if available)
+- Answer Similarity: Semantic similarity to expected answers
+
+End-to-End Metrics:
+- Context Precision: Are retrieved chunks relevant to the question?
+- Context Recall: Were all relevant chunks retrieved?
+- Context Relevancy: Overall quality of retrieved context
+
+Tools for Evaluation:
+- RAGAS: Comprehensive evaluation framework
+- LlamaIndex: Includes evaluation modules
+- DeepEval: Provides various RAG-specific tests
+- TruLens: Focuses on tracing and observability
+
+Best Practices:
+1. Use a diverse test set covering different query types
+2. Include edge cases and challenging questions
+3. Combine automated metrics with human evaluation
+4. Track metrics over time to measure improvements
+5. A/B test different configurations
+6. Monitor production performance continuously
+
+Evaluation should be iterative - use insights to tune chunking strategies, 
+embedding models, retrieval parameters, and prompts.

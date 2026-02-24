@@ -1,0 +1,26 @@
+Understanding Vector Search in RAG
+
+Vector search, also known as semantic search, is fundamental to RAG systems. Unlike 
+traditional keyword-based search, vector search understands the meaning and context 
+of queries.
+
+How Vector Search Works:
+1. Text is converted into numerical vectors (embeddings) using neural networks
+2. These vectors capture semantic relationships between words and concepts
+3. Similar concepts are positioned close together in the vector space
+4. Search involves finding vectors most similar to the query vector
+
+Advantages over keyword search:
+- Understands synonyms and related concepts
+- Handles typos and variations better
+- Captures semantic intent rather than just word matching
+- Works across languages with multilingual models
+
+Distance Metrics:
+Common metrics for measuring similarity include:
+- Cosine similarity: Measures angle between vectors
+- Euclidean distance: Straight-line distance
+- Dot product: Combines magnitude and direction
+
+Vector search enables RAG systems to retrieve contextually relevant information even 
+when exact keywords don't match.

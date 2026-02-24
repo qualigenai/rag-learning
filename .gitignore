@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+
+# ChromaDB (auto-generated vector store)
+chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

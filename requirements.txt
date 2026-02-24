@@ -1,0 +1,32 @@
+# RAG Learning Environment - Python Dependencies
+
+# Core RAG Framework
+langchain==0.1.0
+langchain-community==0.0.13
+langchain-openai==0.0.2
+
+# Vector Database
+chromadb==0.4.22
+
+# Embeddings
+sentence-transformers==2.3.1
+
+# Evaluation Framework
+ragas==0.1.1
+datasets==2.16.1
+
+# LLM Support
+ollama==0.1.6
+
+# Data Processing
+pandas==2.2.0
+numpy==1.26.3
+
+# Utilities
+python-dotenv==1.0.0
+tqdm==4.66.1
+
+# Optional but Recommended
+jupyter==1.0.0
+notebook==7.0.6
+matplotlib==3.8.2
